@@ -38,6 +38,11 @@
 
   <actions>
     <!-- Add your actions here -->
+      <group id="Nebula.MenuGroup" text="Bus" description="Bus Group">
+
+          <action id="Nebula.FindBus" class="com.nebula.spock.actions.FindBusAction" text="Find Bus" description="Finds all occurences of the Bus"/>
+          <add-to-group group-id="MainMenu" anchor="last"/>
+      </group>
   </actions>
 
 </idea-plugin>
